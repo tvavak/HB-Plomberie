@@ -1,12 +1,12 @@
 // Initialize AOS with custom settings
 AOS.init({
-    duration: 1200,
+    duration: 800,
+    easing: 'ease-out',
     once: false,
     offset: 50,
-    easing: 'ease-in-out-cubic',
     delay: 50,
     mirror: true,
-    anchorPlacement: 'center-bottom'
+    anchorPlacement: 'top-bottom'
 });
 
 // Initialize Swiper for Réalisations
